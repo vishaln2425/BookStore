@@ -88,8 +88,8 @@ export const SwipeAiWidget: React.FC<SwipeAiWidgetProps> = ({
     setIsTyping(true);
 
     try {
-      const response = await axios.get(`${API_BASE}/api/ai/chat`, {
-        params: { message: text.trim() },
+      const response = await axios.post(`${API_BASE}/api/ai/ask`, {
+        query: text.trim(),
       });
 
       const aiMsg: Message = {

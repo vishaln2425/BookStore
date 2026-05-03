@@ -45,13 +45,12 @@ export const AiInsightsModal: React.FC<AiInsightsModalProps> = ({ book, isOpen, 
         try {
           // Pointing to the backend API
           const API_BASE = process.env.NEXT_PUBLIC_API_BASE || 'http://localhost:8080';
-          const response = await axios.post(`${API_BASE}/api/ai/summary`, {
-            title: book.title,
-            description: book.description
+          const response = await axios.post(`${API_BASE}/api/ai/ask`, {
+            query: `Provide editorial insights and a short summary for the book "${book.title}". Description: ${book.description}`
           });
           
-          if (response.data && response.data.summary) {
-            setSummary(response.data.summary);
+          if (response.data && response.data.response) {
+            setSummary(response.data.response);
           } else {
             setError("The archives returned empty for this tome.");
           }
