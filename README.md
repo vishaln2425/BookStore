@@ -71,9 +71,9 @@ npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 📸 Screenshots (Coming Soon)
+## 📸 Demo
 
-*(Add screenshots of the 3D book reader, SwipeAI chatbot, and the elegant homepage grid here to showcase the beautiful UI!)*
+<video src="public/video.mov" controls="controls" muted="muted" playsinline="playsinline" width="100%"></video>
 
 ---
 
