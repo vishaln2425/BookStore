@@ -71,9 +71,9 @@ npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 📸 Demo
+## 📸 Demo Video
 
-<video src="public/video.mov" controls="controls" muted="muted" playsinline="playsinline" width="100%"></video>
+<video src="./public/video.mov" width="100%" controls></video>
 
 ---
 
