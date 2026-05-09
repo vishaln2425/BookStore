@@ -73,7 +73,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## 📸 Demo Video
 
-<video src="./public/video.mov" width="100%" controls></video>
+<video src="https://github.com/vishaln2425/BookStore/raw/main/public/video.mov" width="100%" controls></video>
 
 ---
 
